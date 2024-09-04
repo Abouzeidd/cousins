@@ -1,2 +1,2 @@
-## cousins
-# This project shows many traditional cousins of some countries
+# cousins
+This project shows many traditional cousins of some countries
