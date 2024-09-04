@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            WORLD CUISINES
+        </title>
+    <style>
+        
+          tag1 {
+            border: 2px solid black;
+            margin: 50px;
+            display: inline-block;  
+            background-color: rgb(233, 235, 135); 
+            height:60px;
+          }
+          tag2 {
+            border: 2px solid rgb(36, 32, 32);
+            margin: 100px;
+            display:inline-block;  
+            background-color: rgb(169, 166, 166); 
+            font-size: 33;
+            text-align:center;
+          }
+            
+          body { 
+            background-image: url(https://wallpapers.com/images/hd/best-food-background-0neqcd9ozlv3js9y.jpg); 
+            background-position: center; 
+            background-repeat: no-repeat;
+            background-size: 100%;
+             }
+             #sel{
+                width: 250px;
+                height: 40px;
+                font-size: 25px;
+                background-color: rgb(222, 131, 131);
+                text-align:center;
+
+            }
+          
+    </style>      
+    </head>
+    <body>
+        <header>
+            <tag1>
+            <nav>
+            <h1>
+                  <p>
+                     <a href="aboutus.html"> About Us</a> &nbsp;
+                  </p>
+            </h1> 
+            </nav>
+            </tag1>
+        </header>
+        
+        <tag2>
+                               Who doesn't like food ? Everybody LOVES food.
+                <br>           We eat when we are sad.
+                <br>           We eat when we are happy.
+                <br>           We eat when we are angry. 
+                <br>           We eat all day all the time.
+                <br>           Here is an example about world's most famous dishes of the most famous cusines. 
+          
+            <br>
+        
+                <select onchange="dd(this.value)" id="sel">
+                    <option selected disabled > choose a cusine </option>
+                    <option value="japanese.html">Japanese</option>
+                    <option value="american.html">American</option>
+                    <option value="turkish.html">Turkish</option>
+                    <option value="egyptian.html">Egyptian</option>
+                    <option value="italian.html">Italian</option>
+                    <option value="mexican.html">Mexican</option>
+                    <option value="chinese.html">Chinese</option>
+                    <option value="lebanese.html">lebanese</option>
+                    <option value="syrian.html">Syrian</option>
+                    <option value="french.html">French</option>
+                </select>
+                <script>
+                    function dd(aaa)
+                    {
+                     window.location=aaa; 
+                    }
+                </script>
+               
+            </tag2>  
+       
+        
+            
+
+    </body>
+</html>    
